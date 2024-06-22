@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:4000/api/"
+const BASE_URL = "https://e-store-api-uawo.onrender.com/api/"
 
 export const newRequest = axios.create({
     baseURL: BASE_URL,
